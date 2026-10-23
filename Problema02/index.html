@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema02 - Queres gaseosa</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#inicio">Sodas Locas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto" id="myMenu">
+                    <li data-menuanchor="inicio" class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li data-menuanchor="nosotros" class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li data-menuanchor="productos" class="nav-item">
+                        <a class="nav-link" href="#productos">Productos</a>
+                    </li>
+                    <li data-menuanchor="galeria" class="nav-item">
+                        <a class="nav-link" href="#galeria">Galeria</a>
+                    </li>
+                    <li data-menuanchor="contacto" class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="fullpage">
+
+        <div class="section sec-home text-center">
+            <div class="container">
+                <h1 class="display-1 fw-bold mb-3">¿Queres gaseosa?</h1>
+                <p class="lead mb-4">Las mejores bebidas para no enojarte.</p>
+                <a href="#productos" class="btn btn-light btn-lg rounded-pill px-4">Ver Sabores</a>
+            </div>
+        </div>
+
+        <div class="section sec-about text-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <i class="fa-solid fa-building-user fa-4x mb-3"></i>
+                        <h2 class="fw-bold mb-3">Presentacion</h2>
+                        <p class="fs-5">Somos una empresa dedicada a hacer las mejores gaseosas.
+                             Llevamos mas de 3 dias refrescando con sabores unicos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section sec-services text-center">
+            <div class="container">
+                <h2 class="fw-bold mb-5">Nuestros Productos</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card p-3 h-100">
+                            <img src="img/sal.webp" class="img-fluid mx-auto mb-" alt="Icono Cola" style="height: 120px; object-fit: contain;">
+                            <h4 class="fw-bold">SalvaCola</h4>
+                            <p>El sabor clasico.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-3 h-100">
+                            <img src="img/ksp.webp" class="img-fluid mx-auto mb-3" alt="Icono Limon" style="height: 120px; object-fit: contain;">
+                            <h4 class="fw-bold">kolashanpan</h4>
+                            <p>Super refrescante, para comer con pupusas.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-3 h-100">
+                            <img src="img/Red.jpg" class="img-fluid mx-auto mb-3" alt="Icono Toronja" style="height: 120px; object-fit: contain;">
+                            <h4 class="fw-bold">Cascada Red</h4>
+                            <p>Un recuerdo :( </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section sec-galeria text-center">
+            <div class="container">
+                <h2 class="fw-bold mb-4">Galeria</h2>
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <div class="card p-2">
+                            <img src="img/meme.jpg" class="img-fluid img-prod" alt="Soda 1" style="height: 250px; object-fit: contain; width: 100%;">
+                            <p class="mt-2 mb-0 fw-bold">Producto estrella</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-2">
+                            <img src="img/images.jpg" class="img-fluid img-prod" alt="Soda 2" style="height: 250px; object-fit: contain; width: 100%;">
+                            <p class="mt-2 mb-0 fw-bold">Fundador </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-2">
+                            <img src="img/edificio.jpg" class="img-fluid img-prod" alt="Soda 3" style="height: 250px; object-fit: contain; width: 100%;">
+                            <p class="mt-2 mb-0 fw-bold">Oficinas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section sec-contacto">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="card p-4">
+                            <h3 class="fw-bold text-center mb-3">Contactanos</h3>
+                            <form id="frmContacto">
+                                <div class="mb-3">
+                                    <label class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="txtNom" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Correo</label>
+                                    <input type="email" class="form-control" id="txtEmail" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="txtMsj" rows="3" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-custom w-100">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

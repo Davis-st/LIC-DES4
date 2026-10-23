@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+    background: #fff !important;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.sec-home {
+    background: linear-gradient(135deg, #a8c4d3, #4a5c8d);
+    color: white;
+}
+
+.sec-about {
+    background: linear-gradient(135deg, #a3b8b6, #43875d);
+    color: white;
+}
+
+.sec-services {
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    color: white;
+}
+
+.sec-galeria {
+    background: linear-gradient(135deg, #f80759, #bc4e9c);
+    color: white;
+}
+
+.sec-contacto {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    color: #333;
+}
+
+.img-prod {
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.btn-custom {
+    background-color: #ff4b2b;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+
+.btn-custom:hover {
+    background-color: #e03e1e;
+    color: white;
+}
